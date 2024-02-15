@@ -1,0 +1,114 @@
+body::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0);
+}
+body::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+.website-logo-navbar{
+    width: 60px;
+    height: 56px;
+}
+
+footer,
+section {
+    position: relative;
+    padding: 100px 0;
+}
+
+/*Navbar*/
+
+
+.nav ul{
+    display: inline-block;
+}
+
+.navbar-list{
+    margin-top: 10px;
+    list-style: none;
+}
+
+.navbar-list li{
+    display: inline-block;
+    padding-left: 20px;
+}
+.navbar-list li:first-child{
+    padding-left: 0px;
+}
+
+.navbar-list li a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.navbar-list li a:hover{
+    color: rgb(255, 208, 0);
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.navbar-list li img{
+    transition: all 0.2s ease;
+}
+
+.navbar-list li img:hover{
+    width: 70px;
+    height: 66px
+}
+
+.authorisation{
+    margin-top: 10px;
+}
+
+
+.authorisation li{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.authorisation li a{
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.authorisation li a:hover{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255, 208, 0);
+}
+
+.img-user{
+    width: 50px;
+    height: 50px;
+}
+
+/*Header*/
+.header{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/background-header.png) no-repeat;
+    background-size: cover;
+}
+.header-title{
+
+    margin-top: 156px;
+    margin-bottom: 203px;
+
+}
+
+/*About Ukraine Section*/
+
+.about-ukraine-image{
+    border-radius: 12px;
+}
