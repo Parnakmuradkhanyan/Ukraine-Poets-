@@ -1,0 +1,207 @@
+body{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/background-header.png) no-repeat;
+    background-size: cover;
+}
+
+/*Header*/
+.authorisation{
+    margin-bottom: 0;
+}
+
+
+/*Login*/
+
+.form{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: transparent;
+    backdrop-filter: blur(8px);
+}
+
+.img-user-log-in{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+}
+
+.form-name{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.email-input{
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid white;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 30%;
+    height: 34px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.email-input::placeholder{
+    color: rgb(218, 216, 216);
+}
+
+.password-input{
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid white;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 30%;
+    height: 34px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.password-input::placeholder{
+    color: rgb(218, 216, 216);
+}
+
+.login-form-links{
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.login-form-links:hover{
+    color: white;
+    font-style: 18px;
+    font-weight: 600;
+}
+
+.links-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    gap: 10%;
+    padding: 0;
+
+}
+
+
+.btn-login{
+    width: 30%;
+    height: 42px;
+    background: rgba(22, 22, 22, 0.425);
+    backdrop-filter: blur(3px);
+    border: 2px solid white;
+    border-radius: 8px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+.btn-login:hover{
+    background: rgba(255, 255, 255, 0.301);
+    backdrop-filter: blur(8px)
+}
+
+
+
+
+
+
+
+@media (min-width: 100px) {
+    .form{
+        width: 80%;
+    }
+
+    .email-input{
+        width: 70%;
+    }
+    .password-input{
+        width: 70%;
+    }
+
+    .btn-login{
+        width: 50%;
+    }
+
+
+}
+
+@media (min-width: 576px){
+    .email-input{
+        width: 50%;
+    }
+    .password-input{
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px){
+    .email-input{
+        width: 50%;
+    }
+    .password-input{
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .form{
+        width: 60%;
+    }
+
+    .email-input{
+        width: 30%;
+    }
+    .password-input{
+        width: 30%;
+    }
+
+    .btn-login{
+        width: 30%;
+    }
+
+
+}
+
+/*Footer*/
+
+.footer-login{
+    border-radius: 10px;
+    border: 2px solid white;
+    background: rgba(0, 0, 0, 0.281);
+    backdrop-filter: blur(8px);
+}

@@ -1,0 +1,418 @@
+body{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3)), url(../img/kyiv-sign-up.png) no-repeat;
+    background-size: cover;
+}
+/*Header*/
+.authorisation{
+    margin-bottom: 0;
+}
+
+/*Signup Form*/
+
+.form{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: transparent;
+    backdrop-filter: blur(8px);
+}
+
+.img-user-sign-up{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+}
+
+.form-name{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.name-input{
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid white;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 30%;
+    height: 34px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.name-input::placeholder{
+    color: rgb(218, 216, 216);
+}
+
+.surname-input{
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid white;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 30%;
+    height: 34px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.surname-input::placeholder{
+    color: rgb(218, 216, 216);
+}
+
+
+
+.birthday-input{
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid white;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 30%;
+    height: 34px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.birthday-input::placeholder{
+    color: rgb(218, 216, 216);
+}
+
+
+.address-input{
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid white;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 30%;
+    height: 34px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.address-input::placeholder{
+    color: rgb(218, 216, 216);
+}
+
+
+
+
+
+
+.state-input{
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid white;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 30%;
+    height: 34px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.state-input::placeholder{
+    color: rgb(218, 216, 216);
+}
+
+.zip-code-input{
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid white;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 30%;
+    height: 34px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.zip-code-input::placeholder{
+    color: rgb(218, 216, 216);
+}
+
+
+
+
+.city-input{
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid white;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 30%;
+    height: 34px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.city-input::placeholder{
+    color: rgb(218, 216, 216);
+}
+
+
+
+
+
+
+
+
+
+
+.email-input{
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid white;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 30%;
+    height: 34px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.email-input::placeholder{
+    color: rgb(218, 216, 216);
+}
+
+.password-input{
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid white;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 30%;
+    height: 34px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.password-input::placeholder{
+    color: rgb(218, 216, 216);
+}
+
+
+.status-input{
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid white;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 30%;
+    height: 34px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.status-input::placeholder{
+    color: rgb(218, 216, 216);
+}
+
+.country-select{
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid white;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 30%;
+    height: 34px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.conutry-select::placeholder{
+    color: rgb(218, 216, 216);
+}
+.country-select option{
+    color: black;
+}
+
+.iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel] {
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid white;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 34px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel]::placeholder {
+    color: rgb(218, 216, 216);
+}
+
+
+input[type=radio]#userGender {
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    margin: 6px;
+    color: white;
+    padding: 0;
+    border: 2px solid white;
+    border-radius: 50%;
+    appearance: none;
+    background-color: transparent;
+    outline: none;
+}
+
+input[type="radio"]#userGender:not(:disabled):checked {
+    border-color: var(--bs-white);
+    background-color: var(--bs-white);
+    background-clip: content-box;
+    padding: 2px;
+    background-image: radial-gradient(circle, var(--bs-white) 0%, var(--bs-white 50%, transparent 60%, transparent 10%));
+}
+
+input[type=radio]#userGender#text{
+    color: #000;
+}
+
+
+
+.btn-signup{
+    width: 30%;
+    height: 42px;
+    background: rgba(22, 22, 22, 0.425);
+    backdrop-filter: blur(3px);
+    border: 2px solid white;
+    border-radius: 8px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+.btn-signup:hover{
+    background: rgba(255, 255, 255, 0.301);
+    backdrop-filter: blur(8px)
+}
+
+
+
+
+
+
+
+@media (min-width: 100px) {
+    .form{
+        width: 80%;
+    }
+
+    .email-input{
+        width: 70%;
+    }
+    .password-input{
+        width: 70%;
+    }
+
+    .btn-signup{
+        width: 50%;
+    }
+
+
+}
+
+@media (min-width: 576px){
+    .email-input{
+        width: 50%;
+    }
+    .password-input{
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px){
+    .email-input{
+        width: 50%;
+    }
+    .password-input{
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .form{
+        width: 60%;
+    }
+
+    .email-input{
+        width: 30%;
+    }
+    .password-input{
+        width: 30%;
+    }
+
+    .btn-signup{
+        width: 30%;
+    }
+
+
+}
+/*Footer*/
+.footer-signup{
+    border-radius: 10px;
+    border: 2px solid white;
+    background: rgba(0, 0, 0, 0.281);
+    backdrop-filter: blur(8px);
+}
