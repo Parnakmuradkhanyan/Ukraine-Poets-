@@ -13,27 +13,43 @@
 
     <header class="header">
         
-        <nav class="nav justiy-content-center">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-color">
+            <div class="container-flui">
+              <a class="navbar-brand" href="#home"><img src="./img/icon.svg" class="website-logo-navbar"></a>
 
-            <ul class="navbar-list col-lg-9">
-                <li><a href="#"><img src="./img/icon.svg" class="website-logo-navbar" alt="Website-logo"></a></li>
-                <li><a href="" class="menu-link">Cytats</a></li>
-                <li><a href="" class="menu-link">Lists</a></li>
-                <li><a href="" class="menu-link">Links</a></li>
-                <li><a href="" class="menu-link">Photos</a></li>
-                <li><a href="" class="menu-link">Periods</a></li>
-                <li><a href="" class="menu-link"></a></li>
-            </ul>
+              
+              <button class="navbar-toggler btn btn-outline-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
-            <ul class="authorisation col-lg-3">
-                <li><a href="menu-link">Log in <i class="bi-box-arrow-right"></i></a></li>
-                <li><a href="menu-link">Sign up <i class="bi-person-add"></i></a></li>
+                <span class="bi-justify"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-list">
+                  <li class="nav-item">
+                    <a class="nav-link text-white menu-text" href="#about-us">Literature</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white menu-text" href="#production">Dishes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white menu-text" href="#tickets">Periods</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white menu-text" href="#tickets">Links</a>
+                  </li>
+                </ul>
+              </div>
+              
+              <ul class="authorisation">
+                <li><a class="menu-link">Log in <i class="bi bi-box-arrow-right"></i></a></li>
+                <li><a class="menu-link">Sign up <i class="bi bi-person-add"></i></a></li>
                 <li><img src="./img/user-not-logged-in.svg" class="img-fluid img-user"></li>
-            </ul>
+              </ul>
 
 
-
+            </div>
         </nav>
+
+
         <div class="container">
             <div class="row">
                 <div class="col-12"><h1 class="text-white text-uppercase header-title">Ukraine is our home</h1></div>
@@ -65,6 +81,9 @@
         </div>
     </section>
 
+
+
+    <!-- Our Poets Section -->
     <section class="our-poets">
 
         <div class="container">
@@ -74,7 +93,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 text-center mt-3">
+                <div class="col-lg-12 text-center mt-3 mb-5">
                     <p>Poetry, a magical violin in a wonderful orchestra of <br>
                         literature! Her Majesty the Muse plays her melody <br>
                         on your strings. In the silence of sleepless nights,<br>
@@ -84,7 +103,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12 mt-lg-0 mb-lg-0 mt-md-0 mb-md-5 mt-sm-0 mb-sm-5">
+                <div class="col-lg-3 col-md-6 col-sm-12 text-sm-center text-center mt-lg-0 mb-lg-0 mt-md-0 mb-md-5 mt-sm-0 mb-sm-5">
                     <div class="container-poet">
 
                         <img src="./img/ivan-franko.png" alt="Ivan Franko" class="img-fluid poet-image text-center">
@@ -97,10 +116,11 @@
                             <blockquote><i><b>"Who does not fight evil does not love people."</b></i></blockquote>
                             <p><strong>The most famous works:</strong> <br>
                                 poetry collections "From the Peaks and Lowlands", "Withered Leaves", the poem "Moise", the novel "Zakhar Berkut", the drama "Stolen Happiness".</p>
+                            <p><strong>Place of birth:</strong></p>  
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41575.775740978796!2d23.290891441776193!3d49.3618766793977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473bb35e3bb2dca1%3A0x565d36fddfe62779!2z0J3QsNCz0YPQtdCy0LjRh9C4LCDQm9GM0LLQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDgyMTI2!5e0!3m2!1sru!2sua!4v1708008893175!5m2!1sru!2sua" class="map-of-birth-places" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
 
-                        <button href="#" class="button-view-more">More</button>
+                        <a href="https://en.wikipedia.org/wiki/Ivan_Franko" target="_blank" class="button-view-more">More</a>
 
 
 
@@ -109,23 +129,27 @@
 
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-12 mt-lg-0 mb-lg-0 mt-md-0 mb-md-5 mt-sm-5 mb-sm-5">
+                <div class="col-lg-3 col-md-6 col-sm-12 text-sm-center text-center mt-lg-0 mb-lg-0 mt-md-0 mb-md-5 mt-sm-5 mb-sm-5">
                     <div class="container-poet">
 
-                        <img src="./img/ivan-franko.png" alt="Ivan Franko" class="img-fluid poet-image text-center">
+                        <img src="./img/lesya-ukrainka.png" alt="Lesya Ukrainka" class="img-fluid poet-image text-center">
 
                         <div class="justiy-content-center">
 
-                            <p class="text-center poet-name"><b>Ivan Franko</b></p>
-                            <p class="text-center poet-year"><b>(1856-1916)</b></p>
-                            <p>Ukrainian poet, novelist, literary critic, folklorist, playwright, publicist. </p>
-                            <blockquote><i><b>"Who does not fight evil does not love people."</b></i></blockquote>
+                            <p class="text-center poet-name"><b>Lesya Ukrainka</b></p>
+                            <p class="text-center poet-year"><b>(1871-1913)</b></p>
+                            <p>one of Ukrainian literature's foremost writers, best known for her poems and plays. She was also an active political, civil, and feminist activist.</p>
+                            <blockquote><i><b>"No, I want to laugh through my tears
+                                In the midst of trouble sing songs,
+                                Hope without hope
+                                I want to live! Away with sad thoughts!"</b></i></blockquote>
                             <p><strong>The most famous works:</strong> <br>
-                                poetry collections "From the Peaks and Lowlands", "Withered Leaves", the poem "Moise", the novel "Zakhar Berkut", the drama "Stolen Happiness".</p>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41575.775740978796!2d23.290891441776193!3d49.3618766793977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473bb35e3bb2dca1%3A0x565d36fddfe62779!2z0J3QsNCz0YPQtdCy0LjRh9C4LCDQm9GM0LLQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDgyMTI2!5e0!3m2!1sru!2sua!4v1708008893175!5m2!1sru!2sua" class="map-of-birth-places" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                "Contra spem spero", "Dream", "Word, why are you not a hard cry", "Cassandra", "Forest song", "Boyarian", "Fireplace master", "Trouble will teach", "Lelia", "Butterfly" and many others..</p>
+                            <p><strong>Place of birth:</strong></p>    
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40529.85824711046!2d27.486333850201852!3d50.58779461118784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472eb0f885f3a46b%3A0xd4db4abfdbe7aa0e!2z0J3QvtCy0L7Qs9GA0LDQtC3QktC-0LvRi9C90YHQutC40LksINCW0LjRgtC-0LzQuNGA0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDExNzAx!5e0!3m2!1sru!2sua!4v1708078803918!5m2!1sru!2sua" class="map-of-birth-places" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
 
-                        <button href="#" class="button-view-more">More</button>
+                        <a href="https://en.wikipedia.org/wiki/Lesya_Ukrainka" target="_blank" class="button-view-more">More</a>
 
 
 
@@ -133,23 +157,30 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-12  mt-lg-0 mb-lg-0 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5">
+                <div class="col-lg-3 col-md-6 col-sm-12 text-sm-center text-center  mt-lg-0 mb-lg-0 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5">
                     <div class="container-poet">
 
-                        <img src="./img/ivan-franko.png" alt="Ivan Franko" class="img-fluid poet-image text-center">
+                        <img src="./img/taras-shevchenko.png" alt="Taras Shevchenko" class="img-fluid poet-image text-center">
 
                         <div class="justiy-content-center">
 
-                            <p class="text-center poet-name"><b>Ivan Franko</b></p>
-                            <p class="text-center poet-year"><b>(1856-1916)</b></p>
-                            <p>Ukrainian poet, novelist, literary critic, folklorist, playwright, publicist. </p>
-                            <blockquote><i><b>"Who does not fight evil does not love people."</b></i></blockquote>
+                            <p class="text-center poet-name"><b>Taras Shevchenko</b></p>
+                            <p class="text-center poet-year"><b>(1814-1861)</b></p>
+                            <p>Ukrainian poet, writer, artist, public and political figure, folklorist and ethnographer. </p>
+                            <blockquote><i><b>"Fight and win!"</b></i></blockquote>
                             <p><strong>The most famous works:</strong> <br>
-                                poetry collections "From the Peaks and Lowlands", "Withered Leaves", the poem "Moise", the novel "Zakhar Berkut", the drama "Stolen Happiness".</p>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41575.775740978796!2d23.290891441776193!3d49.3618766793977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473bb35e3bb2dca1%3A0x565d36fddfe62779!2z0J3QsNCz0YPQtdCy0LjRh9C4LCDQm9GM0LLQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDgyMTI2!5e0!3m2!1sru!2sua!4v1708008893175!5m2!1sru!2sua" class="map-of-birth-places" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                Spring has sprung (Excerpt from the poem "Haydamaki") ...<br>
+                                The sun is shining, the wind is blowing...<br>
+                                The Dnieper roars and moans wide (Excerpt from the poem "Prychynna") ...<br>
+                                A cloud floats behind the sun...<br>
+                                The wind howls along the oak (Excerpt from the poem "Poplar") ...<br>
+                                Dawn is my evening ...<br>
+                                Cherry garden near the house ...</p><br>
+                                <p><strong>Place of birth:</strong></p>  
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41668.58131495991!2d31.0012145!3d49.25201855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d3cff2adef96eb%3A0x7634f24b3347ede0!2z0JzQvtGA0LjQvdGG0YssINCn0LXRgNC60LDRgdGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAyMDIxMA!5e0!3m2!1sru!2sua!4v1708078968331!5m2!1sru!2sua" class="map-of-birth-places" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
 
-                        <button href="#" class="button-view-more">More</button>
+                        <a href="https://en.wikipedia.org/wiki/Taras_Shevchenko" target="_blank" class="button-view-more">More</a>
 
 
 
@@ -157,44 +188,86 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-12 mt-lg-0 mb-lg-0 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5">
+                <div class="col-lg-3 col-md-6 col-sm-12 text-sm-center text-center mt-lg-0 mb-lg-0 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5">
                     <div class="container-poet ">
 
-                        <img src="./img/ivan-franko.png" alt="Ivan Franko" class="img-fluid poet-image text-center">
+                        <img src="./img/grygory-skovoroda.png" alt="Grigory Skovoroda" class="img-fluid poet-image text-center">
 
                         <div class="justiy-content-center">
 
-                            <p class="text-center poet-name"><b>Ivan Franko</b></p>
-                            <p class="text-center poet-year"><b>(1856-1916)</b></p>
-                            <p>Ukrainian poet, novelist, literary critic, folklorist, playwright, publicist. </p>
-                            <blockquote><i><b>"Who does not fight evil does not love people."</b></i></blockquote>
+                            <p class="text-center poet-name"><b>Hrigorii Skovoroda</b></p>
+                            <p class="text-center poet-year"><b>(1722-1794)</b></p>
+                            <p>Ukrainian poet, teacher and a composer of liturgical music</p>
+                            <blockquote><i><b>"Not the stupid one who doesn't know...but the one who doesn't want to know."</b></i></blockquote>
                             <p><strong>The most famous works:</strong> <br>
-                                poetry collections "From the Peaks and Lowlands", "Withered Leaves", the poem "Moise", the novel "Zakhar Berkut", the drama "Stolen Happiness".</p>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41575.775740978796!2d23.290891441776193!3d49.3618766793977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473bb35e3bb2dca1%3A0x565d36fddfe62779!2z0J3QsNCz0YPQtdCy0LjRh9C4LCDQm9GM0LLQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDgyMTI2!5e0!3m2!1sru!2sua!4v1708008893175!5m2!1sru!2sua" class="map-of-birth-places" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                "The Garden of Divine Songs", "Woman Lotova", "Fables of Kharkiv".</p>
+                            <p><strong>Place of birth:</strong></p>  
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40799.986922544624!2d32.898784155571526!3d50.27327386883781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d672903ddc7173%3A0x56285b35ca7e6ef3!2z0KfQtdGA0L3Rg9GF0LgsINCf0L7Qu9GC0LDQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1sru!2sua!4v1708078874605!5m2!1sru!2sua" class="map-of-birth-places" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
 
-                        <button href="#" class="button-view-more">More</button>
+                        <a href="https://en.wikipedia.org/wiki/Hryhorii_Skovoroda" target="_blank" class="button-view-more">More</a>
 
 
 
 
                     </div>
-                </div>
-
-
-
-
-
-
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
 
                 </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Our Hymn -->
+
+    <section class="our-hymn">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center">National anthem of Ukraine</h2>
+                </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-12 col-sm-12 mb-sm-5 mt-sm-5">
+                    <pre class="hymn">
 
+                        Shche ne vmerla Ukrayina, ni slava, ni volya,
+                        Shche nam, brattia ukrayint'si, usmikhnet'sia dolia.
+                        Zhynut' nashi vorozhen'ky, yak rosa na sontsi,
+                        Zapanuyem i my, brattia, u svoyiy storontsi. <br>
+
+                        Dushu y tilo my polozhym za nashu svobodu,
+                        I pokazhem, shcho my, brattia, kozats'koho rodu.<br>
+
+                        Stanem brattia, v biy kryvavyi, vid Sianu do Donu
+                        V ridnim kraiu panuvaty ne damo nikomu.
+                        Chorne more shche vsmikhnetsia, did Dnipro zradiye,
+                        Shche na nashiy Ukrayini dolen'ka naspiye.<br>
+
+                        Dushu y tilo my polozhym za nashu svobodu,
+                        I pokazhem, shcho my, brattia, kozats'koho rodu.<br>
+
+                        A zavziattia, shchira pratsia svoho shche dokazhe,
+                        Shche na nashiy Ukrayini pisn' huchna rozliazhe,
+                        Za Karpaty vidibiet'tsia z-homonyt' stepamy,
+                        Ukrayiny slava stane pomizh narodamy.<br>
+
+                        Dushu y tilo my polozhym za nashu svobodu,
+                        I pokazhem, shcho my, brattia, kozats'koho rodu.<br>
+                    </pre>
+                    <p class="text-md-center text-sm-center"><i><strong>Lyrics</strong>	Pavlo Chubynskyi</i></p>
+                    <p class="text-md-center text-sm-center"><i><strong>Music</strong>	Mykhailo Verbytskyi</i></p>
+
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 mb-sm-5 mt-sm-5 justiy-content-sm-center">
+                    <img src="./img/symbol-o-ukraine.png" alt="Symbol of Ukraine" class="img-fluid img-herb">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <iframe src="https://www.youtube.com/embed/Wx7vo__48oE?si=InsidCp8BVLTo__D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" class="hymn-video" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
