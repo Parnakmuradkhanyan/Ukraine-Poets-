@@ -60,27 +60,29 @@
                             <p class="text-white form-name">Sign up</p>
                             <img src="../img/user-not-logged-in.svg" class="img-fluid img-user-sign-up">
 
-                            <div class="row">
-                                <div class="col-lg-3 col-md-4 col-sm-12">
+                            <div class="row first-row-form">
+                                <div class="col-lg-4 col-md-4 col-sm-12">
                                     <input type="text" name="user_name" required="true" id="inpuName" placeholder="John" class="name-input">
                                     <input type="text" name="user_surname" id="inputSurname" required="true" placeholder="Smith" class="surname-input">
                                 </div>
-                                <div class="col-lg-3 col-md-8 col-sm-12">
+                                <div class="col-lg-4 col-md-4 col-sm-12">
                                     <input type="email" name="user_email" id="inputEmail" required="true" placeholder="examlpe@mail.com" class="email-input">
                                     <input type="password" name="user_password" id="inputPasword" required="true" placeholder="password" class="password-input">
                                 </div>
-                                <div class="col-lg-4 col-md-7 col-sm-12 mb-sm-3">
+                                <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-12">
                                     
                                     <input id="phone" type="tel" name="phone" />
                                     <input type="date" name="user_birthday" id="inputBirthday" required="true" placeholder="02.02.2023" class="birthday-input">
 
-
-                                    <input id="userGender" type="radio" name="user_gender" required="true" value="male" class="user-gender">M
-                                    <input id="userGender" type="radio" name="user_gender" required="true" value="female" class="user-gender">F
+                                    <div class="gender-radio text-center justify-content-center">
+                                      <input id="userGender" type="radio" name="user_gender" required="true" value="male" class="user-gender"><p class="text-white gender-option-1">M</p>
+                                      <input id="userGender" type="radio" name="user_gender" required="true" value="female" class="user-gender"><p class="text-white gender-option-2">F</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
-                            <div class="row">
+                            <div class="row justify-content-center align-items-center second-row-form">
                                 <div class="col-lg-3 col-md-4 col-sm-12"> 
 
                                     <select id="selectCountry" name="user_country" required="true" id="inpuName" class="country-select">
@@ -335,14 +337,14 @@
 
                                 </div>
 
-                                <div class="col-lg-3 col-md-8 col-sm-12">
+                                <div class="col-lg-3 col-md-3 col-sm-12">
 
                                     <input type="text" name="user_state" id="inputState" required="true" class="state-input" placeholder="State">
                                     <input type="text" pattern="[0-9]*" name="user_zip-code" id="inputZIPCode" required="true" class="zip-code-input" placeholder="ZIP-Code">
 
                                 </div>
 
-                                <div class="col-lg-4 col-md-7 col-sm-12">
+                                <div class="col-lg-6 col-md-5 col-sm-12">
 
                                     <input type="text" name="user_address" id="inputAddress" required="true" class="address-input" placeholder="Address">
                             

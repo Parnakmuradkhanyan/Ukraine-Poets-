@@ -14,7 +14,7 @@ body{
     position: relative;
     margin: 0 auto;
     margin-top: 45px;
-    width: 60%;
+    width: 80%;
     height: auto;
     border-radius: 10px;
     border: 2px solid white;
@@ -42,6 +42,15 @@ body{
     font-weight: 500;
 }
 
+.first-row-form{
+    margin-top: 30px;
+}
+
+.second-row-form{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
 .name-input{
     background: transparent;
     border-radius: 8px;
@@ -51,7 +60,6 @@ body{
     display: flex;
     justify-content: center;
     color: white;
-    width: 30%;
     height: 34px;
     padding-left: 10px;
     cursor: pointer;
@@ -66,11 +74,11 @@ body{
     border-radius: 8px;
     border: 2px solid white;
     position: relative;
-    margin: 0 auto;
+    margin: 0 auto;    
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     color: white;
-    width: 30%;
     height: 34px;
     padding-left: 10px;
     cursor: pointer;
@@ -88,12 +96,13 @@ body{
     border: 2px solid white;
     position: relative;
     margin: 0 auto;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     color: white;
-    width: 30%;
     height: 34px;
     padding-left: 10px;
+    padding-right: 10px;
     cursor: pointer;
 }
 
@@ -111,7 +120,6 @@ body{
     display: flex;
     justify-content: center;
     color: white;
-    width: 30%;
     height: 34px;
     padding-left: 10px;
     cursor: pointer;
@@ -135,7 +143,6 @@ body{
     display: flex;
     justify-content: center;
     color: white;
-    width: 30%;
     height: 34px;
     padding-left: 10px;
     cursor: pointer;
@@ -151,10 +158,10 @@ body{
     border: 2px solid white;
     position: relative;
     margin: 0 auto;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     color: white;
-    width: 30%;
     height: 34px;
     padding-left: 10px;
     cursor: pointer;
@@ -173,10 +180,10 @@ body{
     border: 2px solid white;
     position: relative;
     margin: 0 auto;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     color: white;
-    width: 30%;
     height: 34px;
     padding-left: 10px;
     cursor: pointer;
@@ -185,14 +192,6 @@ body{
 .city-input::placeholder{
     color: rgb(218, 216, 216);
 }
-
-
-
-
-
-
-
-
 
 
 .email-input{
@@ -204,7 +203,6 @@ body{
     display: flex;
     justify-content: center;
     color: white;
-    width: 30%;
     height: 34px;
     padding-left: 10px;
     cursor: pointer;
@@ -224,7 +222,6 @@ body{
     display: flex;
     justify-content: center;
     color: white;
-    width: 30%;
     height: 34px;
     padding-left: 10px;
     cursor: pointer;
@@ -244,8 +241,8 @@ body{
     display: flex;
     justify-content: center;
     color: white;
-    width: 30%;
-    height: 34px;
+    margin-top: 10px;
+    height: 100px;
     padding-left: 10px;
     cursor: pointer;
 }
@@ -263,7 +260,6 @@ body{
     display: flex;
     justify-content: center;
     color: white;
-    width: 30%;
     height: 34px;
     padding-left: 10px;
     cursor: pointer;
@@ -285,7 +281,6 @@ body{
     display: flex;
     justify-content: center;
     color: white;
-    width: 100%;
     height: 34px;
     padding-left: 10px;
     cursor: pointer;
@@ -300,14 +295,16 @@ input[type=radio]#userGender {
     box-sizing: border-box;
     width: 15px;
     height: 15px;
-    margin: 6px;
     color: white;
+    display: inline-block;
     padding: 0;
     border: 2px solid white;
     border-radius: 50%;
     appearance: none;
     background-color: transparent;
     outline: none;
+    margin: 0;
+    margin-right: 6px;
 }
 
 input[type="radio"]#userGender:not(:disabled):checked {
@@ -318,14 +315,20 @@ input[type="radio"]#userGender:not(:disabled):checked {
     background-image: radial-gradient(circle, var(--bs-white) 0%, var(--bs-white 50%, transparent 60%, transparent 10%));
 }
 
-input[type=radio]#userGender#text{
-    color: #000;
+.gender-option-1, .gender-option-2{
+    display: inline-block;
+}
+
+.gender-radio{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    display: inline-block;
 }
 
 
 
 .btn-signup{
-    width: 30%;
     height: 42px;
     background: rgba(22, 22, 22, 0.425);
     backdrop-filter: blur(3px);
@@ -356,52 +359,110 @@ input[type=radio]#userGender#text{
 
 @media (min-width: 100px) {
     .form{
-        width: 80%;
+        width: 95%;
+        padding: 20px;
     }
 
-    .email-input{
-        width: 70%;
+    .form-name{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        padding-left: 0;
     }
-    .password-input{
-        width: 70%;
+
+    .name-input, .surname-input, .email-input, .password-input, .birthday-input, .iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel], .country-select, .city-input, .address-input, .state-input, .zip-code-input, .status-input{
+        width: 100%;
     }
+
+
+    .email-input, .iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel]::placeholder, .state-input, .address-input {
+        margin-top: 20px;
+    }  
+
+    .iti{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+
 
     .btn-signup{
         width: 50%;
     }
 
+    .gender-option-1{
+        padding-right: 70%;
+    }
+
 
 }
 
-@media (min-width: 576px){
-    .email-input{
-        width: 50%;
-    }
-    .password-input{
-        width: 50%;
-    }
-}
 
 @media (min-width: 768px){
-    .email-input{
-        width: 50%;
+    .form{
+        width: 90%;
+        padding: 20px;
     }
-    .password-input{
-        width: 50%;
+
+    .form-name{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        margin-left: 5px;
     }
+
+    .name-input, .surname-input, .email-input, .password-input, .birthday-input, .iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel], .country-select, .city-input, .address-input, .state-input, .zip-code-input, .status-input{
+        width: 100%;
+    }
+
+    .email-input, .iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel]::placeholder, .state-input, .address-input {
+        margin-top: 0px;
+    }  
+
+    .iti{
+        margin-top: 0px;
+    }
+
+    .gender-option-1{
+        padding-right: 50%;
+    }
+
+
+
 }
 
 @media (min-width: 992px) {
     .form{
         width: 60%;
+        padding: 20px;
     }
 
-    .email-input{
-        width: 30%;
+    .form-name{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        margin-left: 5px;
     }
-    .password-input{
-        width: 30%;
+
+    .name-input, .surname-input, .email-input, .password-input, .birthday-input, .iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel], .country-select, .city-input, .address-input, .state-input, .zip-code-input, .status-input{
+        width: 100%;
     }
+
+    .email-input, .iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel]::placeholder, .state-input, .address-input {
+        margin-top: 0px;
+    }  
+
+    .iti{
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .gender-option-1{
+        padding-right: 70%;
+    }
+
 
     .btn-signup{
         width: 30%;
@@ -412,6 +473,8 @@ input[type=radio]#userGender#text{
 /*Footer*/
 .footer-signup{
     border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     border: 2px solid white;
     background: rgba(0, 0, 0, 0.281);
     backdrop-filter: blur(8px);
