@@ -1,0 +1,19 @@
+.header{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/periods-of-literature-bckgrnd.jpg) no-repeat;
+    background-size: cover;
+}
+.header-title{
+
+    margin-top: 156px;
+    margin-bottom: 203px;
+
+}
+
+.table{
+    border: 1px solid black;
+}
+
+.table tr, .table.th, .table.td{
+    border: 1px solid black;
+}
