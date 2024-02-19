@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/style-login.css"
+    <link rel="stylesheet" href="../css/style-login.css">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light navbar-color">
             <div class="container-flui">
-              <a class="navbar-brand" href="../index.html"><img src="../img/icon.svg" class="website-logo-navbar"></a>
+              <a class="navbar-brand" href="../index.html"><img src="../img/icon.svg" class="website-logo-navbar" alt="Home"></a>
 
               
               <button class="navbar-toggler btn btn-outline-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@
               
               <ul class="authorisation">
                 <li><a href="./signup.html" class="menu-link">Sign up <i class="bi bi-person-add"></i></a></li>
-                <li><img src="../img/user-not-logged-in.svg" class="img-fluid img-user"></li>
+                <li><img src="../img/user-not-logged-in.svg" class="img-fluid img-user" alt="user"></li>
               </ul>
 
 
@@ -53,11 +53,11 @@
             <div class="row">
                 <div class="col-12">
                     <div class="form">
-                      <form name="" action="" method="">
-                        <img src="../img/user-not-logged-in.svg" class="img-fluid img-user-log-in">
-                        <p class="text-white form-name">Log in</p>
-                        <input type="email" name="user_email" id="inputEmail" required="true" placeholder="examlpe@mail.com" class="email-input">
-                        <input type="password" name="user_password" id="inputPasword" required="true" placeholder="password" class="password-input">
+                      <form name="user" action="index.php" method="get">
+                        <img src="../img/user-not-logged-in.svg" class="img-fluid img-user-log-in" alt="user">
+                        <h2 class="text-white form-name">Log in</h2>
+                        <input type="email" name="user_email" id="inputEmail"  placeholder="examlpe@mail.com" class="email-input">
+                        <input type="password" name="user_password" id="inputPasword"  placeholder="password" class="password-input">
                         <ul class="links-list">
                             <li><a href="#" class="login-form-links">Forgot password?</a></li>
                             <li><a href="#" class="login-form-links">Sign up</a></li>
@@ -76,7 +76,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-2 col-sm-12 mt-sm-5 mb-sm-5 text-sm-center">
-                  <a href="../index.html"><img src="../img/icon.svg" class="img-fluid img-logo" /></a>
+                  <a href="../index.html"><img src="../img/icon.svg" class="img-fluid img-logo" alt="Home"></a>
                 </div>
 
                 <div class="col-lg-8 col-sm-12 text-center">
