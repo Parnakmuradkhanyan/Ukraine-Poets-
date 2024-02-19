@@ -1,0 +1,195 @@
+/*Header*/
+.header-dishes{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/our-dishes-bckgrnd.jpg) no-repeat;
+    background-size: cover;
+}
+.header-title{
+
+    margin-top: 156px;
+    margin-bottom: 203px;
+
+}
+
+.img-food-map{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+@media (min-width: 100px) {
+    .img-food-map{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .img-food-map{
+        width: 70%;
+    }
+}
+
+@media (min-width: 900px) {
+    .img-food-map{
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    min-width: 220px;
+    margin: auto;
+}
+  
+.img-food {
+    min-width: 205px;
+    min-height: 100px;
+}
+  
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+/*Food Recepies Section*/
+
+.food-recepies{
+    margin-bottom: 150px;
+}
+
+.production{
+    margin-bottom: 100px;
+}
+.product-background-1{
+    width: 141px;
+    height: 210px;
+    border-radius: 12px;
+    background: var(--background-color-of-brown-chocolate-producion);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+
+}
+.text-sm-center{
+    text-align: center;
+}
+.mb-sm-5{
+    margin-bottom: 20px;
+}
+.mt-sm-5{
+    margin-top: 20px;
+}
+
+
+.product{
+    position: relative;
+    min-width: 205px;
+    min-height: 300px;
+
+}
+
+.background-rectangle-1{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    left: 0px; 
+    top: 0px; 
+
+    background: url(../img/borscht.png) no-repeat; 
+}
+
+.background-rectangle-2{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    left: 0px; 
+    top: 0px; 
+
+    background: url(../img/chicken-kiyv.png) no-repeat; 
+}
+.background-rectangle-3{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    left: 0px; 
+    top: 0px; 
+
+    background: url(../img/kyivski-tort.png) no-repeat; 
+}
+.background-rectangle-4{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    left: 0px; 
+    top: 0px; 
+
+    background: url(../img/nalysnik.png) no-repeat; 
+}
+.background-rectangle-5{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    left: 0px; 
+    top: 0px; 
+
+    background: url(../img/perepichka.png) no-repeat; 
+}
+.background-rectangle-6{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    left: 0px; 
+    top: 0px; 
+
+    background: url(../img/vareniki.png) no-repeat; 
+}
+
+.background-rectangle-7{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    left: 0px; 
+    top: 0px; 
+
+    background: url(../img/pampushka.png) no-repeat; 
+}
+
+.background-rectangle-8{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    left: 0px; 
+    top: 0px; 
+
+    background: url(../img/deruny.png) no-repeat; 
+}
+
+
+
+
+.product-name{
+    position: absolute;
+    top: 250px;
+    left: 22px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}

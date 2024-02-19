@@ -1,0 +1,169 @@
+/*Header*/
+.header-literature{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/literature-bckgrnd.jpg) no-repeat;
+    background-size: cover;
+}
+.header-title{
+
+    margin-top: 156px;
+    margin-bottom: 203px;
+
+}
+.book-with-poem{
+    position: relative;
+    margin-bottom: 1200px;
+}
+.img-book{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.poem{
+    position: absolute;
+    top: 100px;
+    left: 15%;
+}
+.poet-image{
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 100px;
+    left: 63%;
+    border-radius: 8px;
+
+
+}
+
+.poet-name{
+    position: absolute;
+    top: 460px;
+    left: 67%
+}
+
+.poet-life{
+    position: absolute;
+    top: 480px;
+    left: 69%;
+}
+
+@media (min-width: 100px) {
+
+
+    .img-book{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+    .poem{
+        position: absolute;
+        top: 30px;
+        left: 12%;
+        font-size: 5px;
+    }
+    .poet-image{
+        width: 20%;
+        height: auto;
+        position: absolute;
+        top: 30px;
+        left: 63%;
+        border-radius: 8px;
+    
+    
+    }
+    
+    .poet-name{
+        position: absolute;
+        top: 140px;
+        left: 63%;
+        font-size: 8px;
+    }
+    
+    .poet-life{
+        position: absolute;
+        top: 155px;
+        left: 66%;
+        font-size: 8px;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    .img-book{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+    .poem{
+        position: absolute;
+        top: 50px;
+        left: 15%;
+        font-size: 9px;
+    }
+    .poet-image{
+        width: 20%;
+        height: auto;
+        position: absolute;
+        top: 50px;
+        left: 63%;
+        border-radius: 8px;
+    
+    
+    }
+    
+    .poet-name{
+        position: absolute;
+        top: 250px;
+        left: 62%;
+        font-size: 15px;
+    }
+    
+    .poet-life{
+        position: absolute;
+        top: 270px;
+        left: 66%;
+        font-size: 15px;
+    }
+}
+@media (min-width: 992px) {
+    .img-book{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+    .poem{
+        position: absolute;
+        top: 100px;
+        left: 15%;
+        font-size: 17px;
+    }
+    .poet-image{
+        width: 20%;
+        height: auto;
+        position: absolute;
+        top: 100px;
+        left: 63%;
+        border-radius: 8px;
+    
+    
+    }
+    
+    .poet-name{
+        position: absolute;
+        top: 460px;
+        left: 67%;
+        font-size: 20px;
+    }
+    
+    .poet-life{
+        position: absolute;
+        top: 480px;
+        left: 69%;
+        font-size: 20px;
+    }
+}

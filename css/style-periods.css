@@ -1,6 +1,6 @@
-.header{
+body{
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/periods-of-literature-bckgrnd.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/periods-of-literature-bckgrnd.jpg) no-repeat;
     background-size: cover;
 }
 .header-title{
@@ -10,10 +10,29 @@
 
 }
 
-.table{
-    border: 1px solid black;
+
+.caption-for-periods{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
-.table tr, .table.th, .table.td{
-    border: 1px solid black;
+.table-my-class{
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(8px);
+    border: 2px solid white;
+    color: white;
 }
+
+
+.footer-periods{
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 2px solid white;
+    background: rgba(0, 0, 0, 0.281);
+    backdrop-filter: blur(8px);
+}
+
