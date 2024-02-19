@@ -1,0 +1,59 @@
+/*Header*/
+.header-links{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/links-bckgrnd.jpg) no-repeat;
+    background-size: cover;
+}
+.header-title{
+
+    margin-top: 156px;
+    margin-bottom: 203px;
+
+}
+
+/*Books Section*/
+
+.book-img-1{
+    width: 220px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+
+
+.book-name{
+    margin-bottom: 5px;
+}
+
+
+
+.download-button{
+    width: 134px;
+    height: 40px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0px solid transparent;
+    border-radius: 12px;
+    background-color: orangered;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.download-button i{
+    margin-left: 5px;
+}
+
+.download-button:hover{
+    background-color: rgb(255, 153, 20);
+    color: white;
+}
+
